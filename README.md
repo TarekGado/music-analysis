@@ -92,7 +92,3 @@ Includes:
 - Build a **mood-based recommender system**  
 - Validate genre labels with expert input  
 
----
-
-## 📁 Repository Structure
-
