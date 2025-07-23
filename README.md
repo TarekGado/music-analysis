@@ -21,6 +21,7 @@ Music is more than sound—it’s a cultural mirror. This project analyzes six d
 - Which genres expanded, faded, or fractured over decades?
 - How are subgenres interlinked with main genres?
  ![Clustering Animation](genre-popularity-over-time.gif)
+ ![Genre Trend](the-art-of-music.png)
 
 ### 🎶 Acoustic Features
 - How do energy, danceability, valence, etc. vary across genres and time?
