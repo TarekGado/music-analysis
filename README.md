@@ -53,6 +53,28 @@ Music is more than sound—it’s a cultural mirror. This project analyzes six d
 
 ---
 
+## 🔍 Clustering & Style Mapping
+
+We explored clustering techniques to visually map the **proximity of music subgenres** based on their average acoustic features such as energy, valence, and danceability.  
+
+We tested:
+- **K-Means**
+- **Agglomerative Clustering**
+- **DBSCAN**
+
+Among them, **K-Means + UMAP** gave the clearest and most coherent clusters.  
+- UMAP helped preserve both **local and global structure**, outperforming PCA and t-SNE in separation clarity.  
+- We used **convex hulls** to highlight dominant genre groups in the acoustic space.  
+
+Key observations:
+![Genre Trend](Clustering.png)
+- Some subgenres with distinct sound profiles still grouped under the same genre.
+- This indicates that genre labels often reflect **cultural or historical context** beyond just audio similarity.
+
+This visualization helped us interpret genre boundaries and sonic proximity in a tangible and intuitive way.
+
+---
+
 ## 📈 Interactive Visualizations
 
 Explore the dashboard here:  
